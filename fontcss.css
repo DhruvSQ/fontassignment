@@ -1,0 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Nunito:wght@700&display=swap');
+
+@font-face {
+  font-family: 'QuoteFont';
+  src: url('Playwrite_AU_VIC_Guides/PlaywriteAUVICGuides-Regular.ttf') format('truetype');
+}
+
+body {
+  background-color: #faf7f2;
+  color: #2f2f2f;
+  margin: 30px;
+}
+
+h1 {
+  font-family: 'Merriweather', serif;
+  font-size: 2.4em;
+  color: #4a2c2a;
+}
+
+h2 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.7em;
+  color: #7a4e48;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+blockquote {
+  font-family: 'QuoteFont', cursive;
+  font-size: 1.3em;
+  background-color: #f3e6dc;
+  border-left: 5px solid #7a4e48;
+  margin: 20px 0;
+  padding: 15px 20px;
+}
+
+li {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.2em;
+  font-variant: small-caps;
+  margin-bottom: 8px;
+}
